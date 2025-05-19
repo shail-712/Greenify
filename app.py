@@ -8,8 +8,8 @@ def get_db_connection():
     try:
         conn = mysql.connector.connect(
             host='localhost',
-            user='', # <-- your MySQL username
-            password='', # <-- your MySQL user password
+            user='root', # <-- your MySQL username
+            password='Shail2004', # <-- your MySQL user password
             database='greenify'
         )
         if conn.is_connected():

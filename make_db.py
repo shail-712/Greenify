@@ -4,8 +4,8 @@ import csv
 # Database configuration
 db_config = {
     'host': 'localhost',
-    'user': '', # <-- your MySQL username
-    'password': '', # <-- your MySQL user password
+    'user': 'root', # <-- your MySQL username
+    'password': 'Shail2004', # <-- your MySQL user password
     'database': 'Greenify'
 }
 
