@@ -5,10 +5,10 @@ html, body {
     padding: 0;
     background-color: #182619;
     color: #333333;
+	overflow: hidden;
 }
 
 body::-webkit-scrollbar {
-
 	display: none;
   }
 
@@ -312,7 +312,7 @@ footer {
 	text-align: center;
 	color: white;
 	height: 100%; /* Ensure full height */
-    overflow: hidden; /* Hide scrollbar */
+    overflow: clip; /* Hide scrollbar */
 }
 
 
